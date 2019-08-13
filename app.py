@@ -10,14 +10,14 @@ from datetime import date
 
 
 app = Flask(__name__)
-APP_ROOT = os.path.join(os.path.dirname(__file__), '.')
+""" APP_ROOT = os.path.join(os.path.dirname(__file__), '.')
 dotenv_path = os.path.join(APP_ROOT, '.env')
 load_dotenv(dotenv_path)
 # Find these values at https://twilio.com/user/account
 account_sid = os.getenv('TWILIO_ACCOUNT_SID')
 auth_token = os.getenv('TWILIO_AUTH_TOKEN')
 client = Client(account_sid, auth_token)
-
+ """
 @app.route("/", methods=['POST'])
 def answer():
     body = request.values.get('Body', None)
