@@ -18,7 +18,6 @@ account_sid = os.getenv('TWILIO_ACCOUNT_SID')
 auth_token = os.getenv('TWILIO_AUTH_TOKEN')
 client = Client(account_sid, auth_token)
 
-
 @app.route("/", methods=['POST'])
 def answer():
     body = request.values.get('Body', None)
