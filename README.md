@@ -1,0 +1,2 @@
+# humos-bot
+Temuco is a city where citizens tend to use wood stoves. In winter, the government imposes rules with the use of firewood at certain times. In order to help older adults respect the rules, Humos-bot has been created A WhatsApp bot to send messages about the state of the air of the city of Temuco in Santiago, Chile, every day at 4 p.m., will send a message announcing the state of the air and if you can use firewood in the stoves. Made for my grandmother since it is difficult to use the browser and constantly check the state of the air online.
